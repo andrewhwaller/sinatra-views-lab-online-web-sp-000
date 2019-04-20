@@ -5,8 +5,11 @@
 <title></title>
 <body>
   <% name = "Joe" %>
-
+<% if name == "Joe" %>
 <h1>Goodbye <%= name %></h1>
+<% else %>
+<h1>Goodbye stranger...</h1>
+<% end %>
 </body>
 
 </html>
